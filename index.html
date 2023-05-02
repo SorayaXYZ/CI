@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soraya website</title>
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+    <!-- HEADER -->
+    <section class="section-1">
+        <header>
+         <h2 class="Logo">Terre d'hospitalité</h2>
+          <nav>
+            <a href="#about" class="active">About</a>
+            <a href="#tourism">Tourism</a>
+            <a href="#music">Music</a>
+            <a href="#food">Food</a>
+            <a href="#contact">Contact</a>
+           </nav>
+        </header>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js " integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+     
+    <script>
+        $(document).ready(function(){
+            $(window).on('scroll', function(){
+                 if($(window).scrollTop()) {
+                     $("header").addClass('bgc');
+                 }else{
+                     $("header").addClass('bgc');
+                 }
+            });
+        });
+    </script>
+
+
+    <!-- About section --> 
+    <section class="about">
+        <h1>hello</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Sint minima quas,ea, voluptas distinctio impedit, id ipsa <br>
+            blanditiis doloribus deserunt accusantium debitis! <br>
+            Vero placeat earum quam, ex aliquid doloremque sunt.</p>          
+    </section>
+    
+    <!-- Video section -->
+    <div class="bloc">
+        <iframe width="100%" height="100%" autoplay="autoplay" src="https://www.youtube.com/embed/_Fs78U1i3sU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+    
+    
+    <!-- Tourism section -->
+    <section class="tourism">
+        <h1>Tourism</h1>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Sint minima quas,ea, voluptas distinctio impedit, id ipsa <br>
+            blanditiis doloribus deserunt accusantium debitis! <br>
+            Vero placeat earum quam, ex aliquid doloremque sunt.</p>          
+    </section>
+
+    <!-- Town cards section -->
+    <section class="container">
+        <div class="card">
+            <div class="card-image hobby-1"></div>
+            <h3>Abidjan</h3>
+            <p>Economic capital</p>
+        </div>
+        <div class="card">
+            <div class="card-image hobby-2"></div>
+            <h3>Yamoussoukro</h3>
+            <p>Political capital</p>
+         </div>
+         
+         <div class="card">
+            <div class="card-image hobby-3"></div>
+            <h3>Korhogo</h3>
+            <p>Northern main town</p>
+         </div>
+         
+         <div class="card">
+            <div class="card-image hobby-4"></div>
+            <h3>Man</h3>
+            <p>Western main town</p>
+         </div>
+    </section>
+
+    <!-- Music section -->
+    <section class="music">
+        <h1>Music</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Sint minima quas,ea, voluptas distinctio impedit, id ipsa <br>
+            blanditiis doloribus deserunt accusantium debitis! <br>
+            Vero placeat earum quam, ex aliquid doloremque sunt.</p>          
+    </section>
+
+    <!-- Food section -->
+    <section class="food">
+        <h1>Food</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Sint minima quas,ea, voluptas distinctio impedit, id ipsa <br>
+            blanditiis doloribus deserunt accusantium debitis! <br>
+            Vero placeat earum quam, ex aliquid doloremque sunt.</p>          
+    
+    </section>
+    
+    
+    <section id="portfolio">
+        <h1 class="headings"> Portfolio </h1>
+        <div class="gallery">
+            <img src="../My website/My pictures/Alloco-poisson-piment.jpg" alt="">
+            <img src="../My website/My pictures/attiéké poulet.jpg" alt="">
+            <img src="../My website/My pictures/placali.jpeg" alt="">
+            <img src="../My website/My pictures/garba.jpeg" alt="">
+            <img src="../My website/My pictures/foutou.jpg" alt="">
+            <img src="../My website/My pictures/foufou-sauce-kokotcha-.jpg" alt="">
+        </div>
+    </section>
+    
+    
+    <!-- Contact section -->
+    <section class="contact">
+        <h1>Contact</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Sint minima quas,ea, voluptas distinctio impedit, id ipsa <br>
+            blanditiis doloribus deserunt accusantium debitis! <br>
+            Vero placeat earum quam, ex aliquid doloremque sunt.</p>          
+    </section>
+
+      
+         <!-- Footer -->
+         <section class="footer">
+             <footer>
+                 <div class="footer-content">
+                     <h3>Côte d'Ivoire</h3>
+                     <p> See you!</p>
+                     <ul class="socials">
+                         <li><a href="#"> <i class="fa fa-facebook"> </i></a></li>
+                         <li><a href="#"> <i class="fa fa-twitter"> </i></a></li>
+                         <li><a href="#"> <i class="fa fa-google-plus"> </i></a></li>
+                         <li><a href="#"> <i class="fa fa-youtube"> </i></a></li>
+                         <li><a href="#"> <i class="fa fa-linkedin-square"> </i></a></li>
+                     </ul>
+                 </div>
+                 <div class="footer-blottom">
+                     <p>copyright &copy; 2023 Côte d'Ivoire. designed by <span> Soraya BAMBA </span></p>
+                 </div>
+             </footer>
+         </section>
+    
+    
+ 
+    
+
+</body>
+
+
+</html>
